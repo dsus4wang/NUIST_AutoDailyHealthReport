@@ -1,0 +1,2 @@
+# NUIST_AutoDailyHealthReport
+南京信息工程大学每日健康打卡自动化
