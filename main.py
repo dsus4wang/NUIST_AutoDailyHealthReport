@@ -10,8 +10,6 @@ import os
 
 def getIpdp(username, password):
      url = 'https://authserver.nuist.edu.cn/authserver/login?service=http%3A%2F%2Fauthserver.nuist.edu.cn%2Fauthserver%2Findex.do'
-     # username = '201883020003'
-     # password = 'Campus@dsus4'
      header = {
          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
          'DNT': '1',
