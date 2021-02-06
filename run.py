@@ -32,7 +32,7 @@ def getIpdp(username, password):
          'encryptPassword', password, pwdEncryptSalt)
      # print(encodedPassword)
      data = {
-         'username': '201883020003',
+         'username': username,
          'password': encodedPassword,
          'captcha': '',
          '_eventId': 'submit',
